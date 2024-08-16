@@ -9,6 +9,10 @@ A small web app built for a job application.
 - Tailwind CSS
 - GitHub Pages
 
+## Screenshot
+
+![Screenshot](/public/screenshot.png)
+
 ## Sources
 
 - Robot: https://www.flaticon.com/free-icons/robot
