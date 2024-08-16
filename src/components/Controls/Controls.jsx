@@ -30,24 +30,20 @@ export default function Controls({
           onClick={() => setRobotDirection("right")}
           class="border-2 rounded-lg border-solid border-white size-16 bg-sienna-50 bg-opacity-90 shadow-lg flex items-center justify-center cursor-pointer"
         >
-          <img src="../../../public/chevron.png" alt="right" class="size-10" />
+          <img src="/gridbot/chevron.png" alt="right" class="size-10" />
         </div>
         <div
           onClick={() => setRobotDirection("up")}
           class="border-2 rounded-lg border-solid border-white size-16 bg-sienna-50 bg-opacity-90 shadow-lg flex items-center justify-center cursor-pointer"
         >
-          <img
-            src="../../../public/chevron.png"
-            alt="up"
-            class="size-10 -rotate-90"
-          />
+          <img src="/gridbot/chevron.png" alt="up" class="size-10 -rotate-90" />
         </div>
         <div
           onClick={() => setRobotDirection("left")}
           class="border-2 rounded-lg border-solid border-white size-16 bg-sienna-50 bg-opacity-90 shadow-lg flex items-center justify-center cursor-pointer"
         >
           <img
-            src="../../../public/chevron.png"
+            src="/gridbot/chevron.png"
             alt="left"
             class="size-10 rotate-180"
           />
@@ -57,7 +53,7 @@ export default function Controls({
           class="border-2 rounded-lg border-solid border-white size-16 bg-sienna-50 bg-opacity-90 shadow-lg flex items-center justify-center cursor-pointer"
         >
           <img
-            src="../../../public/chevron.png"
+            src="/gridbot/chevron.png"
             alt="down"
             class="size-10 rotate-90"
           />
@@ -66,7 +62,7 @@ export default function Controls({
           onClick={handleGo}
           class="border-2 rounded-lg border-solid border-white size-16 bg-sienna-50 bg-opacity-90 shadow-lg flex items-center justify-center cursor-pointer"
         >
-          <img src="../../../public/go.png" alt="go" class="size-10" />
+          <img src="/gridbot/go.png" alt="go" class="size-10" />
         </div>
       </div>
     </>

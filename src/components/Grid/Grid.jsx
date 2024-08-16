@@ -9,7 +9,7 @@ export default function Grid({ robotDirection, tiles }) {
           >
             {tile === 1 && (
               <img
-                src="../../../public/chatbot.png"
+                src="/gridbot/chatbot.png"
                 alt="robot"
                 class={`w-2/3 h-2/3 object-contain transition ${
                   robotDirection === "right" && "-rotate-90"
